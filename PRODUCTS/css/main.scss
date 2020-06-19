@@ -1,0 +1,163 @@
+  @font-face {
+      font-family: SFDBlack;
+      src: url('fonts/SF-Pro-Display-Black.otf');
+    } 
+  @font-face {
+      font-family: SFDBold;
+      src: url('fonts/SF-Pro-Display-Bold.otf');
+    }
+  @font-face {
+      font-family: SFTBold;
+      src: url('fonts/SF-Pro-Display-Bold.otf');
+    }
+  @font-face {
+      font-family: SFTHeavy;
+      src: url('fonts/SF-Pro-Text-Heavy.otf');
+    }
+  @font-face {
+      font-family: SFTLight;
+      src: url('fonts/SF-Pro-Text-Light.otf');
+    }
+  @font-face {
+      font-family: SFTMedium;
+      src: url('fonts/SF-Pro-Text-Medium.otf');
+    }
+  @font-face {
+      font-family: SFTRegular;
+      src: url('fonts/SF-Pro-Text-Regular.otf');
+    }
+  @font-face {
+      font-family: SFTSemiBold;
+      src: url('fonts/SF-Pro-Text-Semibold.otf');
+    }
+  @font-face {
+      font-family: SFDSemiBold;
+      src: url('fonts/SF-Pro-Display-Semibold.otf');
+    }
+  @font-face {
+      font-family: SFDBlack;
+      src: url('fonts/SF-Pro-Display-Heavy.otf');
+    }
+  @font-face {
+      font-family: SFDMedium;
+      src: url('fonts/SF-Pro-Display-Medium.otf');
+    }
+  @font-face {
+      font-family: SFDRegular;
+      src: url('fonts/SF-Pro-Display-Regular.otf');
+    }
+  @font-face {
+      font-family: SFDThin;
+      src: url('fonts/SF-Pro-Display-Thin.otf');
+    }
+$bg-colour : #F3F3F3;
+$font-selected : #4E4E4E;
+$font-notselected : #706E6C;
+.container{
+    max-width: 1280px;
+    padding: 0 !important;
+}
+.row{
+  padding: 0;
+}
+.topbar{
+   background-color: $bg-colour;
+   padding: .5rem;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   box-shadow: 0px 0px 62px 13px rgba(156,156,156,0.56);
+   .topbar-icon{
+         width: 20%;
+         margin: 0 0 0 2rem;
+   }
+   .topbar-items{
+       font-size: 2rem;
+       font-family: SFDMedium;
+       color: $font-notselected;
+       opacity: 0.8;
+       padding: 2rem;
+       &:hover{
+           font-family: SFDBold;
+           color: $font-selected;
+           border-bottom: 4px solid $font-selected;
+           padding-bottom: 1rem;
+       }
+    }
+}
+
+
+.category{
+  display: absolute;
+  .category-sec{
+    height: 20rem;
+    background-color:$bg-colour; 
+  }
+  .header{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: SFTHeavy;
+    text-align: center;    
+    font-size: 5rem;
+    color: $font-selected;
+    margin: 5rem auto;
+  }
+  ::-webkit-scrollbar {
+    width: 20px;
+    background-color: #F5F5F5;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(left, #fff, #e4e4e4);
+    border: 1px solid #aaa;
+  }
+  ::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0,0,0,0.1);
+  border: 1px solid #ccc;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(left, #22ADD4, #1E98BA);
+  }
+  .category-scroll{
+    display: inline-block;
+    overflow-x: scroll;
+    white-space: nowrap;
+    background: linear-gradient(to bottom, $bg-colour 50%, white 50%); 
+    margin: -2rem auto 0;
+    padding: 0;
+  }
+  .category-card{
+      display: inline-block;
+      margin: 5rem 2rem;
+      width: 20rem;
+      height: 25rem;
+      border-radius: 10px;
+      background-color: white;
+      border: 2px solid rgb(240, 240, 240);
+      &:hover{
+        box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.08);
+        border: 0;
+      }
+   }
+
+}
+.products{
+  margin: 0 auto;
+  .product-card{
+    display: inline-block;
+    margin: 5rem 2rem;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid rgb(240, 240, 240);
+    &:hover{
+      box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.08);
+      border: 0;
+  }
+ }
+}

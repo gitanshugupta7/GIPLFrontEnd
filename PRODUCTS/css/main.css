@@ -1,0 +1,197 @@
+@font-face {
+  font-family: SFDBlack;
+  src: url("fonts/SF-Pro-Display-Black.otf");
+}
+
+@font-face {
+  font-family: SFDBold;
+  src: url("fonts/SF-Pro-Display-Bold.otf");
+}
+
+@font-face {
+  font-family: SFTBold;
+  src: url("fonts/SF-Pro-Display-Bold.otf");
+}
+
+@font-face {
+  font-family: SFTHeavy;
+  src: url("fonts/SF-Pro-Text-Heavy.otf");
+}
+
+@font-face {
+  font-family: SFTLight;
+  src: url("fonts/SF-Pro-Text-Light.otf");
+}
+
+@font-face {
+  font-family: SFTMedium;
+  src: url("fonts/SF-Pro-Text-Medium.otf");
+}
+
+@font-face {
+  font-family: SFTRegular;
+  src: url("fonts/SF-Pro-Text-Regular.otf");
+}
+
+@font-face {
+  font-family: SFTSemiBold;
+  src: url("fonts/SF-Pro-Text-Semibold.otf");
+}
+
+@font-face {
+  font-family: SFDSemiBold;
+  src: url("fonts/SF-Pro-Display-Semibold.otf");
+}
+
+@font-face {
+  font-family: SFDBlack;
+  src: url("fonts/SF-Pro-Display-Heavy.otf");
+}
+
+@font-face {
+  font-family: SFDMedium;
+  src: url("fonts/SF-Pro-Display-Medium.otf");
+}
+
+@font-face {
+  font-family: SFDRegular;
+  src: url("fonts/SF-Pro-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: SFDThin;
+  src: url("fonts/SF-Pro-Display-Thin.otf");
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 !important;
+}
+
+.row {
+  padding: 0;
+}
+
+.topbar {
+  background-color: #F3F3F3;
+  padding: .5rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-box-shadow: 0px 0px 62px 13px rgba(156, 156, 156, 0.56);
+          box-shadow: 0px 0px 62px 13px rgba(156, 156, 156, 0.56);
+}
+
+.topbar .topbar-icon {
+  width: 20%;
+  margin: 0 0 0 2rem;
+}
+
+.topbar .topbar-items {
+  font-size: 2rem;
+  font-family: SFDMedium;
+  color: #706E6C;
+  opacity: 0.8;
+  padding: 2rem;
+}
+
+.topbar .topbar-items:hover {
+  font-family: SFDBold;
+  color: #4E4E4E;
+  border-bottom: 4px solid #4E4E4E;
+  padding-bottom: 1rem;
+}
+
+.category {
+  display: absolute;
+}
+
+.category .category-sec {
+  height: 20rem;
+  background-color: #F3F3F3;
+}
+
+.category .header {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-family: SFTHeavy;
+  text-align: center;
+  font-size: 5rem;
+  color: #4E4E4E;
+  margin: 5rem auto;
+}
+
+.category ::-webkit-scrollbar {
+  width: 20px;
+  background-color: #F5F5F5;
+}
+
+.category ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#e4e4e4));
+  background: linear-gradient(left, #fff, #e4e4e4);
+  border: 1px solid #aaa;
+}
+
+.category ::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+.category ::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+.category ::-webkit-scrollbar-thumb:active {
+  background: -webkit-gradient(linear, left top, right top, from(#22ADD4), to(#1E98BA));
+  background: linear-gradient(left, #22ADD4, #1E98BA);
+}
+
+.category .category-scroll {
+  display: inline-block;
+  overflow-x: scroll;
+  white-space: nowrap;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #F3F3F3), color-stop(50%, white));
+  background: linear-gradient(to bottom, #F3F3F3 50%, white 50%);
+  margin: -2rem auto 0;
+  padding: 0;
+}
+
+.category .category-card {
+  display: inline-block;
+  margin: 5rem 2rem;
+  width: 20rem;
+  height: 25rem;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid #f0f0f0;
+}
+
+.category .category-card:hover {
+  -webkit-box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.08);
+  border: 0;
+}
+
+.products {
+  margin: 0 auto;
+}
+
+.products .product-card {
+  display: inline-block;
+  margin: 5rem 2rem;
+  width: 20rem;
+  height: 25rem;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid #f0f0f0;
+}
+
+.products .product-card:hover {
+  -webkit-box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.08);
+  border: 0;
+}
+/*# sourceMappingURL=main.css.map */

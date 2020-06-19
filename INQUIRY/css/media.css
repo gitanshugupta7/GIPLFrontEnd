@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
+  .navbar-toggler-icon {
+    width: 4rem;
+    height: 4rem;
+  }
+  .topbar {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 3rem;
+  }
+  .topbar .topbar-ul {
+    margin-top: 2rem;
+    overflow-x: scroll;
+    display: inline-block;
+    width: 90vw;
+    white-space: nowrap;
+  }
+  .topbar .topbar-items {
+    display: inline-block;
+    margin: 0;
+  }
+  .topbar .topbar-items:hover {
+    font-size: 3rem;
+  }
+  .inquiry .header1 {
+    margin: 17rem 0 1rem 0rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+/*# sourceMappingURL=media.css.map */
