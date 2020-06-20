@@ -109,7 +109,7 @@
 }
 
 .inquiry .forms {
-  margin: 2rem 0 0 1rem;
+  margin: 2rem 0 0 5rem;
 }
 
 .inquiry .forms .formtext {
@@ -152,5 +152,27 @@
 
 .inquiry .forms .btn {
   font-family: SFTLight !important;
+}
+
+.about-us {
+  margin: 17rem 0 0 3rem;
+}
+
+.about-us .item-head {
+  font-size: 2rem;
+  font-family: SFTRegular;
+  color: #4E4E4E;
+}
+
+.about-us .items {
+  font-size: 2rem;
+  font-family: SFTLight;
+  color: #706E6C;
+  display: block;
+}
+
+.about-us .items:hover {
+  cursor: pointer;
+  color: blue;
 }
 /*# sourceMappingURL=main.css.map */

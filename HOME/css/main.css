@@ -101,17 +101,22 @@
   padding-bottom: 1rem;
 }
 
-.hero-section {
+.home-body {
   position: relative;
 }
 
-.hero-section .hero-image1 {
+.home-body .hero-image1 {
   width: 100%;
   opacity: 0.65;
 }
 
-.hero-section .hero-image2 {
+.home-body .hero-image2 {
   display: none;
+}
+
+.hero-section {
+  position: absolute;
+  margin: 4rem 0 0 60rem;
 }
 
 .hero-section .hero-text1 {
@@ -119,8 +124,8 @@
   color: white;
   font-family: SFTHeavy;
   font-size: 6rem;
-  top: 20rem;
-  left: 5rem;
+  top: 17rem;
+  left: 10rem;
   text-shadow: 3px 1px 10px #a5a5a5;
 }
 
@@ -129,8 +134,8 @@
   color: white;
   font-family: SFTHeavy;
   font-size: 6rem;
-  top: 27rem;
-  left: 5rem;
+  top: 24rem;
+  left: 10rem;
   text-shadow: 3px 1px 10px #a5a5a5;
 }
 
@@ -139,8 +144,8 @@
   color: white;
   font-family: SFTHeavy;
   font-size: 6rem;
-  top: 34rem;
-  left: 5rem;
+  top: 31rem;
+  left: 10rem;
   text-shadow: 3px 1px 10px #a5a5a5;
 }
 
@@ -149,8 +154,31 @@
   color: white;
   font-family: SFTHeavy;
   font-size: 6rem;
-  top: 42rem;
-  left: 5rem;
+  top: 38rem;
+  left: 10rem;
   text-shadow: 3px 1px 10px #a5a5a5;
+}
+
+.about-us {
+  margin: 17rem 0 0 3rem;
+  position: absolute;
+}
+
+.about-us .item-head {
+  font-size: 2rem;
+  font-family: SFTRegular;
+  color: #4E4E4E;
+}
+
+.about-us .items {
+  font-size: 2rem;
+  font-family: SFTLight;
+  color: #706E6C;
+  display: block;
+}
+
+.about-us .items:hover {
+  cursor: pointer;
+  color: blue;
 }
 /*# sourceMappingURL=main.css.map */

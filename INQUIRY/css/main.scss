@@ -93,7 +93,7 @@ $font-notselected : #706E6C;
      color: $font-selected;
    }
    .forms{
-       margin: 2rem 0 0 1rem;
+       margin: 2rem 0 0 5rem;
       .formtext{
         font-family: SFTBold;
         font-size: 2rem;
@@ -132,3 +132,21 @@ $font-notselected : #706E6C;
    }
 }
 
+.about-us{
+  margin: 17rem 0 0 3rem;
+ .item-head{
+   font-size: 2rem;
+   font-family: SFTRegular;
+   color: $font-selected;
+ }
+ .items{
+   font-size: 2rem;
+   font-family: SFTLight;
+   color: $font-notselected;
+   display: block;
+   &:hover{
+     cursor: pointer;
+     color: blue;
+   }
+ }
+}

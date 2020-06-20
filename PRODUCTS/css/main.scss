@@ -85,79 +85,21 @@ $font-notselected : #706E6C;
     }
 }
 
-
-.category{
-  display: absolute;
-  .category-sec{
-    height: 20rem;
-    background-color:$bg-colour; 
-  }
-  .header{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    font-family: SFTHeavy;
-    text-align: center;    
-    font-size: 5rem;
-    color: $font-selected;
-    margin: 5rem auto;
-  }
-  ::-webkit-scrollbar {
-    width: 20px;
-    background-color: #F5F5F5;
-  }
-  ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background: linear-gradient(left, #fff, #e4e4e4);
-    border: 1px solid #aaa;
-  }
-  ::-webkit-scrollbar-track {
-  border-radius: 10px;
-  background: rgba(0,0,0,0.1);
-  border: 1px solid #ccc;
-  }
-  ::-webkit-scrollbar-thumb:hover {
-  background: #fff;
-  }
-  ::-webkit-scrollbar-thumb:active {
-    background: linear-gradient(left, #22ADD4, #1E98BA);
-  }
-  .category-scroll{
-    display: inline-block;
-    overflow-x: scroll;
-    white-space: nowrap;
-    background: linear-gradient(to bottom, $bg-colour 50%, white 50%); 
-    margin: -2rem auto 0;
-    padding: 0;
-  }
-  .category-card{
-      display: inline-block;
-      margin: 5rem 2rem;
-      width: 20rem;
-      height: 25rem;
-      border-radius: 10px;
-      background-color: white;
-      border: 2px solid rgb(240, 240, 240);
-      &:hover{
-        box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.08);
-        border: 0;
-      }
+.about-us{
+  margin: 17rem 0 0 3rem;
+ .item-head{
+   font-size: 2rem;
+   font-family: SFTRegular;
+   color: $font-selected;
+ }
+ .items{
+   font-size: 2rem;
+   font-family: SFTLight;
+   color: $font-notselected;
+   display: block;
+   &:hover{
+     cursor: pointer;
+     color: blue;
    }
-
-}
-.products{
-  margin: 0 auto;
-  .product-card{
-    display: inline-block;
-    margin: 5rem 2rem;
-    width: 20rem;
-    height: 25rem;
-    border-radius: 10px;
-    background-color: white;
-    border: 2px solid rgb(240, 240, 240);
-    &:hover{
-      box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.08);
-      border: 0;
-  }
  }
 }

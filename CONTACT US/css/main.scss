@@ -85,7 +85,7 @@ $font-notselected : #706E6C;
    }
 }
 .contact{
-  margin: 0 0 0 1rem;
+  margin: 0 0 0 5rem;
  .header2{
    font-size: 5rem;
     font-family: SFTHeavy;
@@ -109,3 +109,23 @@ $font-notselected : #706E6C;
    width: 5%;
  }
 }
+.about-us{
+  margin: 17rem 0 0 3rem;
+ .item-head{
+   font-size: 2rem;
+   font-family: SFTRegular;
+   color: $font-selected;
+ }
+ .items{
+   font-size: 2rem;
+   font-family: SFTLight;
+   color: $font-notselected;
+   display: block;
+   &:hover{
+     cursor: pointer;
+     color: blue;
+   }
+ }
+}
+
+ 

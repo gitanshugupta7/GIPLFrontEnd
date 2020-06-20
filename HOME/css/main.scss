@@ -84,22 +84,27 @@ $font-notselected : #706E6C;
        }
    }
 }
-.hero-section{
-    position: relative;
-      .hero-image1{
+.home-body{
+     position: relative;
+    .hero-image1{
       width: 100%; 
       opacity: 0.65;
       }
-      .hero-image2{
+    .hero-image2{
         display: none;
       }
+    
+}
+.hero-section{
+    position: absolute;
+    margin: 4rem 0 0 60rem;
       .hero-text1{
         position: absolute;
         color: white;
         font-family: SFTHeavy;
         font-size: 6rem;
-        top: 20rem;
-        left: 5rem;
+        top: 17rem;
+        left: 10rem;
         text-shadow: 3px 1px 10px #a5a5a5;
       }
       .hero-text2{
@@ -107,8 +112,8 @@ $font-notselected : #706E6C;
         color: white;
         font-family: SFTHeavy;
         font-size: 6rem;
-        top: 27rem;
-        left: 5rem;
+        top: 24rem;
+        left: 10rem;
         text-shadow: 3px 1px 10px #a5a5a5;
       }
       .hero-text3{
@@ -116,8 +121,8 @@ $font-notselected : #706E6C;
         color: white;
         font-family: SFTHeavy;
         font-size: 6rem;
-        top: 34rem;
-        left: 5rem;
+        top: 31rem;
+        left: 10rem;
         text-shadow: 3px 1px 10px #a5a5a5;
       }
       .hero-text4{
@@ -125,8 +130,31 @@ $font-notselected : #706E6C;
         color: white;
         font-family: SFTHeavy;
         font-size: 6rem;
-        top: 42rem;
-        left: 5rem;
+        top: 38rem;
+        left: 10rem;
         text-shadow: 3px 1px 10px #a5a5a5;
       }
+}
+
+.about-us{
+   margin: 17rem 0 0 3rem;
+   position: absolute;
+  .item-head{
+    font-size: 2rem;
+    font-family: SFTRegular;
+    color: $font-selected;
+    &:hover{
+     
+    }
+  }
+  .items{
+    font-size: 2rem;
+    font-family: SFTLight;
+    color: $font-notselected;
+    display: block;
+    &:hover{
+      cursor: pointer;
+      color: blue;
+    }
+  }
 }
